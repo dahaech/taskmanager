@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#bb808080"
+        android:paddingTop="7dp"
+        android:paddingLeft="5dp"
+        android:textSize="17dp"
+        android:textColor="#ff000000"
+        android:text="조건"
+        android:layout_marginTop="7dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/triggerNameToConfirm"
+        android:text="앞에서 선택한 조건 가져와서 보여줄것." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#bb808080"
+        android:paddingTop="7dp"
+        android:paddingLeft="5dp"
+        android:textSize="17dp"
+        android:textColor="#ff000000"
+        android:text="액션" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingTop="10dp"
+        android:id="@+id/actionNameToConfirm"
+        android:text="앞에서 선택한 액션 가져와서 보여줄것." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#bb808080"
+        android:paddingTop="13dp"
+        android:paddingLeft="5dp"
+        android:textSize="18dp"
+        android:textColor="#ff000000"
+        android:text="플랜 이름"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/planNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="플랜 이름을 정해주세요"
+        android:layout_marginTop="7dp" />
+
+
+</LinearLayout>

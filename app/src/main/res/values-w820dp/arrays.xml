@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_array">
+        <item>http://www.microsoft.com</item>
+        <item>http://www.xbox.com</item>
+        <item>http://www.windowsphone.com</item>
+    </string-array>
+
+    <!--<string-array name="triggers">-->
+        <!--<item>Wi-Fi 켜짐</item>-->
+        <!--<item>Wi-Fi 꺼짐</item>-->
+        <!--<item>화면 켜짐</item>-->
+        <!--<item>화면 꺼짐</item>-->
+        <!--<item>소리모드</item>-->
+        <!--<item>진동모드</item>-->
+        <!--<item>무음모드</item>-->
+        <!--<item>데이터네트워크 켜짐</item>-->
+        <!--<item>데이터네트워크 꺼짐</item>-->
+        <!--<item>블루투스 켜짐</item>-->
+        <!--<item>블루투스 꺼짐</item>-->
+    <!--</string-array>-->
+
+</resources>

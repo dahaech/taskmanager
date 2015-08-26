@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    ]
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/buttonAnd"
+            android:text="And"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            />
+        <Button
+            android:id="@+id/buttonOr"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Or"
+            android:textSize="10dp"
+            />
+        <Button
+            android:id="@+id/buttonDone"
+            android:text="Done"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            />
+        <Button
+            android:id="@+id/buttonTriggerEnd"
+            android:text="triggerEND"
+            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:textSize="10dp"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</LinearLayout>
